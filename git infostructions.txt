@@ -1,0 +1,96 @@
+git infostructions
+
+-------
+https://gist.github.com/cblunt/860360
+https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github
+https://www.udacity.com/course/version-control-with-git--ud123
+https://stackoverflow.com/questions/1365541/how-to-move-some-files-from-one-git-repo-to-another-not-a-clone-preserving-hi
+https://stackoverflow.com/questions/tagged/git
+https://www.google.com/search?q=reddit+git+for+idiots&rlz=1C1CHBF_enUS1028US1028&oq=reddit+git+for+idiots&aqs=chrome..69i57.8088j0j7&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=udacity+git+course&rlz=1C1CHBF_enUS1028US1028&oq=udacity+git+course&aqs=chrome..69i57j0i390l4.2968j0j7&sourceid=chrome&ie=UTF-8
+
+
+-------
+https://github.com/MorphClaw/just-textbooks.git
+https://www.udemy.com/course/git-and-github-tutorial/learn/lecture/18080409?start=15#overview
+https://kalob.io/teaching/
+-------
+Quick setup — if you’ve done this kind of thing before
+or	
+https://github.com/MorphClaw/literallyatest.git
+Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+
+…or create a new repository on the command line
+echo "# literallyatest" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MorphClaw/literallyatest.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/MorphClaw/literallyatest.git
+git branch -M main
+git push -u origin main
+
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+-------
+
+what the heck is udacity
+
+much test such difficult many much moosen doge amirite
+
+-------
+
+after deleting git folder:
+4400111526@BT155-MDTC21 MINGW64 ~/Documents/Git
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+4400111526@BT155-MDTC21 MINGW64 ~/Documents/Git
+$ cd its\ just\ textbooks/
+
+be4 delete git folder:
+
+4400111526@BT155-MDTC21 MINGW64 ~/Documents/Git/its just textbooks (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../CKK.Logic/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+4400111526@BT155-MDTC21 MINGW64 ~/Documents/Git/its just textbooks (main)
+$ ls
+
+4400111526@BT155-MDTC21 MINGW64 ~/Documents/Git/its just textbooks (main)
+$ git ls
+git: 'ls' is not a git command. See 'git --help'.
+
+The most similar command is
+        lfs
+
+4400111526@BT155-MDTC21 MINGW64 ~/Documents/Git/its just textbooks (main)
+$ -ls
+bash: -ls: command not found
+
+4400111526@BT155-MDTC21 MINGW64 ~/Documents/Git/its just textbooks (main)
+$ dir
+
+4400111526@BT155-MDTC21 MINGW64 ~/Documents/Git/its just textbooks (main)
+$ cd ..
+
+4400111526@BT155-MDTC21 MINGW64 ~/Documents/Git (main)
+$ ls
+ CKK.Logic/   README.md  'its just textbooks'/
+
+4400111526@BT155-MDTC21 MINGW64 ~/Documents/Git (main)
+$ 4400111526@BT155-MDTC21 MINGW64 ~/Documents/Git
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
